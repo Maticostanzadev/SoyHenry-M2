@@ -20,7 +20,7 @@ function App() {
       <hr />
       <div>
         <Cards
-          cities={data}
+          cities={data} class="hola"
         />
       </div>
       <hr />
