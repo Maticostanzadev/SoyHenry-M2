@@ -2,8 +2,23 @@ export const Cairns = JSON.parse(`{"coord":{"lon":145.77,"lat":-16.92},"weather"
 
 export const Londres = JSON.parse(`{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"}],"base":"stations","main":{"temp":280.32,"pressure":1012,"humidity":81,"temp_min":279.15,"temp_max":281.15},"visibility":10000,"wind":{"speed":4.1,"deg":80},"clouds":{"all":90},"dt":1485789600,"sys":{"type":1,"id":5091,"message":0.0103,"country":"GB","sunrise":1485762037,"sunset":1485794875},"id":2643743,"name":"London","cod":200}`);
 
-export const Denver = JSON.parse(`{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"}],"base":"stations","main":{"temp":280.32,"pressure":1012,"humidity":81,"temp_min":12.12,"temp_max":121},"visibility":10000,"wind":{"speed":4.1,"deg":80},"clouds":{"all":90},"dt":1485789600,"sys":{"type":1,"id":5091,"message":0.0103,"country":"GB","sunrise":1485762037,"sunset":1485794875},"id":2643743,"name":"Denver","cod":200}`);
+export const Denver = JSON.parse(`{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"}],"base":"stations","main":{"temp":280.32,"pressure":1012,"humidity":81,"temp_min":8,"temp_max":37},"visibility":10000,"wind":{"speed":4.1,"deg":80},"clouds":{"all":90},"dt":1485789600,"sys":{"type":1,"id":5091,"message":0.0103,"country":"GB","sunrise":1485762037,"sunset":1485794875},"id":2643745,"name":"Denver","cod":200}`);
 
-var cities = [Londres, Cairns, Denver];
+export const Miami = JSON.parse(`{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":300,"main":"Sunny","description":"light intensity drizzle","icon":"09d"}],"base":"stations","main":{"temp":280.32,"pressure":1012,"humidity":81,"temp_min":12,"temp_max":45},"visibility":10000,"wind":{"speed":4.1,"deg":80},"clouds":{"all":90},"dt":1485789600,"sys":{"type":1,"id":5091,"message":0.0103,"country":"GB","sunrise":1485762037,"sunset":1485794875},"id":2643745,"name":"Miami","cod":200}`);
+
+export const BuenosAires = JSON.parse(`{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":300,"main":"Sunny","description":"light intensity drizzle","icon":"09d"}],"base":"stations","main":{"temp":280.32,"pressure":1012,"humidity":81,"temp_min":3,"temp_max":35},"visibility":10000,"wind":{"speed":4.1,"deg":80},"clouds":{"all":90},"dt":1485789600,"sys":{"type":1,"id":5091,"message":0.0103,"country":"GB","sunrise":1485762037,"sunset":1485794875},"id":2643745,"name":"Buenos Aires","cod":200}`);
+
+var cities = [
+  Londres,
+  Cairns,
+  BuenosAires,
+  Denver,
+  Cairns,
+  Miami,
+  Cairns,
+  Miami,
+  Denver,
+  Londres,
+];
 
 export default cities;

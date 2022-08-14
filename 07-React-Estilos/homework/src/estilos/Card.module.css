@@ -1,0 +1,83 @@
+.card {
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   height: 300px;
+   margin: 30px 30px;
+   border-radius: 20px;
+   padding: 0px;
+   box-shadow: -3px 3px 15px rgba(0, 0, 0, 0.361), 3px -3px 10px rgba(0, 0, 0, 0.361);
+}
+
+.Drizzle {
+   background-image: url(https://www.freevector.com/uploads/vector/preview/7040/FreeVector-Rain-Background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.Clouds {
+   background-image: url(https://realidadonline.com.uy/wp-content/uploads/2020/09/9fcebaebd170c1b71315a06fb2c12134.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.Sunny {
+   background-image: url(https://media.istockphoto.com/photos/sun-on-blue-sky-with-clouds-picture-id1307008652?b=1&k=20&m=1307008652&s=170667a&w=0&h=qlsGY9-An-qSgYNlNJ70xEEfjf5uKqpyzFGcC7hiXyY=);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.cardTitle {
+   margin-top: 30px;
+   margin-bottom: -5px;
+   font-size: 30px;
+   color: white;
+}
+
+.temp_box {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 20px;
+}
+
+.temp {
+   margin-top: 10px;
+   margin-right: 25px;
+   margin-left: 25px;
+   margin-bottom: 0px;
+}
+
+.tempMinMax {
+   font-size: 20px;
+   color: white;
+}
+
+.botones {
+   display: flex;
+   flex-direction: column;
+}
+
+.close {
+   border: none;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background-color: transparent;
+   font-size: 15px;
+   border: 2px solid white;
+   color: white;
+   border-radius: 5px;
+   box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.30) inset, -3px -3px 6px rgba(255, 255, 255, 0.30) inset;
+   transition: 300ms;
+   outline: none;
+}
+
+.close:hover {
+   background-color: rgba(240, 248, 255, 0.311);
+   color: black;
+}
+
+.close:active {
+   outline: none;
+}
