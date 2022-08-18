@@ -4,20 +4,20 @@ import * as actionCreators from '../actions/index.js';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 
-const Post = ({ loading, post, fetchPost }) =>  (
+const Post = ({ loading, post, fetchPost }) => (
   <div>
-      <input name='id' />
-      <button onClick={(e) => {
-        e.preventDefault();
-        const value = document.querySelector('input').value;
-        fetchPost(value);
-      }} >
-        get
-      </button>
-      <div>
-        {loading ? 'loading...' : post.title}
-      </div>
+    <input name='id' />
+    <button onClick={(e) => {
+      e.preventDefault();
+      const value = document.querySelector('input').value;
+      fetchPost(value);
+    }} >
+      get
+    </button>
+    <div>
+      {loading ? 'loading...' : post.title}
     </div>
+  </div>
 )
 
 function mapStateToProps(state) {
